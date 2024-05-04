@@ -1,0 +1,135 @@
+.co2,
+.znso4,
+.subs,
+.nacl,
+.explanation,
+.hcl,
+.statement,
+.circle,
+.reactee {
+    text-align: center;
+}
+
+.search {
+    text-align: right;
+}
+
+.explanation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    background-position: center;
+    background-size: 350px 350px;
+
+}
+
+body {
+    background-color: #fefef6;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.subs {
+    background-color: #2b2b2b;
+    color: white;
+    margin: 50px 440px;
+    height: 300px;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+input[type=submit] {
+    background-color: #e30202;
+    color: white;
+    border: none;
+}
+
+.foot {
+    text-align: center;
+}
+
+
+.navigation {
+    background-color: #2b2b2b;
+}
+
+.navigation a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fefef6;
+}
+
+.navigation a:hover {
+    background-color: #fefef6;
+    color: black;
+}
+
+input[type=search] {
+    height: 48px;
+    width: 340px;
+    border: 0;
+    background-color: #fefef6;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 1px;
+    right: 1px;
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 7rem;
+    position: fixed;
+    top: 145px;
+    right: 44%;
+    left: 44%;
+
+}
+
+.circle {
+    position: fixed;
+    top: 50px;
+    right: 45%;
+    left: 45%;
+}
+
+.reactee {
+    position: fixed;
+    top: 123px;
+    right: 45%;
+    left: 45%;
+}
+
+.logo {
+    width: 35vw;
+    height: 12vw;
+    background-color: #fefef6;
+    position: fixed;
+    left: 32.3%;
+}
